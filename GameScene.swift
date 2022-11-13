@@ -26,6 +26,7 @@ class GameScene: SKScene {
         registerForNotifications()
         // You need to set the contact delegate for the collision detection functions in the extension to be called. Those functions are later in the file.
         physicsWorld.contactDelegate = self
+        backgroundColor = .cyan
     }
     
     func placePlayer() {
