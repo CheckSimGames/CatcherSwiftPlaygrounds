@@ -18,7 +18,7 @@ class GameScene: SKScene {
     var dropSpeedTimer = Timer()
     var scoreLabel = SKLabelNode()
     
-    func setUpScene() {
+    func setupScene() {
         placePlayer()
         startTimers()
         setupLabel()
@@ -93,7 +93,7 @@ class GameScene: SKScene {
     }
     
     override func didMove(to view: SKView) {
-        self.setUpScene()
+        self.setupScene()
     }
 
     override func update(_ currentTime: TimeInterval) {
