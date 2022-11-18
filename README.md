@@ -22,4 +22,4 @@ The `Food.swift`, `Ground.swift`, and `Player.swift` files in the Shared folder 
 
 The `PhysicsComponent.swift`, `SpriteComponent.swift`, and `TransformComponent.swift` files in the Shared folder have the code for the GameplayKit components.
 
-The `ContactNotifiable.swift` and `PhysicsBody.swift` files have code for the collision detection along with the extension file at the end of the `GameScene.swift` file. The files are in the Shared folder.
+The `ContactNotifiable.swift` and `PhysicsBody.swift` files have code for the collision detection along with the extension file at the end of the `GameScene.swift` file.
